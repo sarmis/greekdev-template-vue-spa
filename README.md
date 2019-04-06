@@ -24,4 +24,3 @@
     1. Add an `import` statement for the new file (ex `import newpage from ./src/web/newpage.vue`)
     1. Add a route for the new file (ex `{ path: '/newpage', component: newpage }`)
 
-
