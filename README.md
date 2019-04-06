@@ -1,10 +1,15 @@
-# Single Page Application with Vue.js / Vuex / Vue-Router 
+# Single Page Application Template with Vue.js / Vuex / Vue-Router 
 
 
-How to use:
+### Installation
 
-- `npm i -s vue vue-router vuex`
 - `npm i -g parcel-bundler`
-- `parcel src/web/index.html --no-hmr`
+- `npm install`
+- `npm run dev`
+
+
+### Developing
+
+#### Adding pages
 
 
