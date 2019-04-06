@@ -2,8 +2,8 @@
     div
         nav.navbar
             router-link(to="/") home
+            router-link(to="/profile") profile
             router-link(to="/about") about
-            router-link(to="/bar") bar
         router-view
 </template>
 
@@ -11,9 +11,11 @@
 <script>
     import Vue from "vue";
     import {router} from './_router.js';
+    import {store} from './_store.js'
    
     export default Vue.extend({ 
-        router: router,       
+        store: store,
+        router: router    
     });    
 </script>
 
