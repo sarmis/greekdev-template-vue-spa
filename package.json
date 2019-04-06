@@ -8,7 +8,7 @@
     "homepage": "https://github.com/sarmis/greekdev-template-vue-spa#readme",
     
     "scripts": {
-        "dev": "parcel src/web/index.html --no-hmr"
+        "dev": "start parcel src/web/index.html --no-hmr --out-dir ./dist/web"
     },
 
     "dependencies": {
