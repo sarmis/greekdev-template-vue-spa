@@ -1,5 +1,7 @@
 # Single Page Application Template with Vue.js / Vuex / Vue-Router 
 
+This is a template for a single page application using vue, vuex & vue-router. Routes are defined in 
+`./src/web/_routes.js` and the global state management is defined in `./src/web/_store.js` 
 
 ### Installation
 

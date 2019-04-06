@@ -2,15 +2,13 @@
     "name": "greekdev-template-vue-spa",
     "description": "Single Page Application Template with Vue.js / Vuex / Vue-Router ",
     "version": "1.0.0",
-    "main": "",   
+    "main": "",
     "author": "thomas.sarmis@gmail.com",
     "license": "ISC",
     "homepage": "https://github.com/sarmis/greekdev-template-vue-spa#readme",
-    
     "scripts": {
         "dev": "start parcel src/web/index.html --no-hmr --out-dir ./dist/web"
     },
-
     "dependencies": {
         "vue": "^2.6.10",
         "vue-router": "^3.0.2",
@@ -21,12 +19,10 @@
         "sass": "^1.17.4",
         "vue-hot-reload-api": "^2.3.3"
     },
-
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sarmis/greekdev-template-vue-spa.git"
     },
-  
     "bugs": {
         "url": "https://github.com/sarmis/greekdev-template-vue-spa/issues"
     }
