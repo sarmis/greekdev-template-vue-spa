@@ -8,6 +8,7 @@ export const store = new Vuex.Store({
         name: 'Unknown'
     },
 
+    // Usege: $store.commit('mutationan', parameter)
     mutations: {
         setName(state, name) {
             Vue.set(state, 'name', name);
