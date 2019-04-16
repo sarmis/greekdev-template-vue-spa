@@ -1,0 +1,18 @@
+{
+    "name": "House Chores",  
+    "short_name": "Chores",
+
+    "start_url": "/",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    
+    "icons": [
+        {
+            "src": "/res/app-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ]
+}

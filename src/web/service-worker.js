@@ -2,7 +2,6 @@ console.log("service-worker.js")
 // import service worker script
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js');
 
-
 // Network First
 [ 
     '/$',  // Index 
