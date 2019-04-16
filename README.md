@@ -13,6 +13,7 @@ This is a template for a single page application using vue, vuex & vue-router. R
 
 - Source code is located in `./src/`
     - web app source code is located in `./src/web/`
+    - PWA manifest file should have a `.webmanifest` extension for compatibility with parcel.
 
 - Distributable artifacts are generated in `./dist/`
     - web app artifacts are generated in `./dist/web/`
