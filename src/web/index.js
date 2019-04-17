@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
 import App from './app.vue';
-import './style.scss'
+import './style.scss';
 
-new Vue(App).$mount('#vueapp')
+new Vue(App).$mount('#vueapp');
