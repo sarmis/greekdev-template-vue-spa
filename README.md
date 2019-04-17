@@ -27,3 +27,8 @@ This is a template for a single page application using vue, vuex & vue-router. R
     1. Add an `import` statement for the new file (ex `import newpage from ./src/web/newpage.vue`)
     1. Add a route for the new file (ex `{ path: '/newpage', component: newpage }`)
 
+#### Tips
+
+build dependency graph...
+
+depcruise --exclude "^node_modules" --output-type dot src | c:\resources\bins\graphviz-dot\dot -T svg >dependencygraph.svg
