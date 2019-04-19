@@ -10,14 +10,16 @@
         "dev": "start parcel src/web/index.html --no-hmr --out-dir ./dist/web"
     },
     "dependencies": {
-        "vue": "^2.6.10",
-        "vue-router": "^3.0.2",
-        "vuex": "^3.1.0",
         "@vue/component-compiler-utils": "^2.6.0",
-        "vue-template-compiler": "^2.6.10",
+        "material-design-icons-iconfont": "^4.0.5",
         "pug": "^2.0.3",
         "sass": "^1.17.4",
-        "vue-hot-reload-api": "^2.3.3"
+        "vue": "^2.6.10",
+        "vue-hot-reload-api": "^2.3.3",
+        "vue-router": "^3.0.2",
+        "vue-template-compiler": "^2.6.10",
+        "vuetify": "^1.5.12",
+        "vuex": "^3.1.0"
     },
     "repository": {
         "type": "git",

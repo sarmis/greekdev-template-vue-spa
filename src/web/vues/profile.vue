@@ -5,7 +5,7 @@
         div.form 
             table
                 tr
-                    td Name
+                    td Name:
                     td
                         input(:value="$store.state.name" @input="$store.commit('setName',$event.target.value)")
 </template>
