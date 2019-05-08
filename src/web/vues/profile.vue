@@ -24,11 +24,5 @@
         
     }
 </script>
-<style lang="scss" scoped>
-    .form {
-        display: flex;
-        justify-content: center;
-    }
-</style>
 
 
