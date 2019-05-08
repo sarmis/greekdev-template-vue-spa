@@ -27,10 +27,10 @@
                     v-list-tile-action
                         v-icon notes
                     v-list-tile-title about 
-        
-        
+                
         v-content           
             router-view
+            
 </template>
 
 

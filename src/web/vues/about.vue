@@ -12,8 +12,7 @@
                         p Let's Vuetify the template!                       
 
                     v-card-actions
-                        v-spacer
-                        
+                        v-spacer                        
 
 </template>
 
