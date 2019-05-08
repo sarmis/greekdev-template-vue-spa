@@ -1,7 +1,7 @@
 <template lang="pug">
     v-app
         v-toolbar(app)
-            v-toolbar-side-icon
+            v-toolbar-side-icon(@click="drawer=!drawer")
             v-toolbar-title Home
             v-spacer
             v-toolbar-items
@@ -14,7 +14,7 @@
                 v-list-tile( to="/profile")
                     v-list-tile-action
                         v-icon account_circle
-                    v-list-tile-title John
+                    v-list-tile-title Profile
               
                 v-divider
                 
@@ -40,7 +40,9 @@
     import {store} from './_store.js'
    
     export default Vue.extend({ 
-        data: () => ({drawer: null}),
+        data: () => ( { 
+            drawer: null 
+        } ),
 
         store: store,
         router: router    
