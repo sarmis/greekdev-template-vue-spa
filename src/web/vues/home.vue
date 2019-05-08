@@ -1,9 +1,8 @@
-<template>
-    <div> 
-        <h1>Home</h1> 
-        <p> Welcome: {{$store.state.name}}</p>
+<template lang="pug">
+    v-container(fluid) 
+        h1 Home
+        p Welcome: {{$store.state.name}}
        
-    </div>   
 </template>
 
 
